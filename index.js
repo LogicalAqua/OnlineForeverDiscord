@@ -8,4 +8,10 @@ bot.on("error", (err) => {
   console.error(err); // or your preferred logger
 });
 
+bot.on("ready", () => {
+  bot.editStatus("online", {
+    name: "Earn Cash & R$ @ justearn.gg"
+  });
+});
+
 bot.connect(); // Get the bot to connect to Discord
