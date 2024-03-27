@@ -9,8 +9,9 @@ bot.on("error", (err) => {
 });
 
 bot.on("ready", () => {
-  bot.editStatus("online", {
-    name: "Earn Cash & R$ @ justearn.gg"
+  bot.editStatus("dnd", {
+    name: "Hello, I'm a simple bot",
+    afk: false
   });
 });
 
